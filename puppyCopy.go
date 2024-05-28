@@ -1,6 +1,8 @@
 package puppycopy
 
 import (
+	"fmt"
+
 	dogcopy "github.com/lucyyangruo/dogCopy"
 )
 
@@ -17,4 +19,8 @@ func BigBark(s string) string {
 }
 func BigBarks(s string) string {
 	return dogcopy.WhenGrowUp(Barks())
+}
+
+func showVersion() {
+	fmt.Println("I'm form version v1.0.0")
 }
