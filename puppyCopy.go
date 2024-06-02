@@ -32,3 +32,9 @@ func showVersionAgain() {
 func showVersionAgainAndAgain() {
 	fmt.Println("I'm form version v1.3.0")
 }
+
+func ShowEver() {
+	showVersion()
+	showVersionAgain()
+	showVersionAgainAndAgain()
+}
